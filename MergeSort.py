@@ -35,7 +35,7 @@ def mergeSort(arr):
             k+=1
             j+=1
 
-arr = [12, 11, 13, 5, 6, 7]
+arr = [12, 11, 13, 5, 6, 7,640,123,1,4,435,1,7,1,4,16,7]
 print(arr)
 mergeSort(arr)
 print(arr)
