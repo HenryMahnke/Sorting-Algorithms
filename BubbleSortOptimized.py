@@ -21,7 +21,6 @@ def compare(arr):
                 # what this will do, is if there are NO swapping events it will break it
             return
         print(arr)
-        print(swapped)
     print(arr)
 
 
