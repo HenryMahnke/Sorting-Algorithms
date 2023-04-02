@@ -6,16 +6,13 @@ arr = [6,1,4,7,2,9,3,2,34,123,16,17,1,32,2,15,1,71,123,36,22,116]
 
 def compare(arr):
     for j in range(len(arr)):
-        swapped = False
         for i in range(len(arr)-j-1):
             first = arr[i]
             second = arr[i+1]
             if first>second:
                 arr[i] = second
                 arr[i+1] = first
-                swapped = True
         print(arr)
-        print(swapped)
     print(arr)
 
 
